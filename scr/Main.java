@@ -6,15 +6,15 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
-        int num1 = scanner.nextInt();
+        float num1 = scanner.nextFloat();
 
         System.out.print("Ingrese el segundo número: ");
-        int num2 = scanner.nextInt();
+        float num2 = scanner.nextFloat();
 
         System.out.print("Seleccione la operación (sumar/restar/multiplicar/dividir): ");
         String operacion = scanner.next();
 
-        int resultado = 0;
+        float resultado = 0;
 
         switch (operacion) {
             case "sumar":
