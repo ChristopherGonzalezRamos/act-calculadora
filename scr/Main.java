@@ -11,22 +11,22 @@ public class Main{
         System.out.print("Ingrese el segundo número: ");
         float num2 = scanner.nextFloat();
 
-        System.out.print("Seleccione la operación (sumar/restar/multiplicar/dividir): ");
-        String operacion = scanner.next();
+        System.out.print("Seleccione la operación: \n1- sumar \n2- restar \n3- multiplicar \n4- dividir \n\nEscribe el numero de la operación a realizar:  ");
+        int operacion = scanner.nextInt();
 
         float resultado = 0;
 
         switch (operacion) {
-            case "sumar":
+            case 1:
                 resultado = Operaciones.sumar(num1, num2);
                 break;
-            case "restar":
+            case 2:
                 resultado = Operaciones.restar(num1, num2);
                 break;
-            case "multiplicar":
+            case 3:
                 resultado = Operaciones.multiplicar(num1, num2);
                 break;
-            case "dividir":
+            case 4:
                 resultado = Operaciones.dividir(num1, num2);
                 break;
             default:
