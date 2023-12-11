@@ -6,9 +6,17 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
+        if (!scanner.hasNextFloat()) {
+            System.out.println("El primer número no es válido, ingresa numeros validos");
+            System.exit(0);
+        }
         float num1 = scanner.nextFloat();
 
         System.out.print("Ingrese el segundo número: ");
+        if (!scanner.hasNextFloat()) {
+            System.out.println("El segundo número no es válido, ingresa numeros validos");
+            System.exit(0);
+        }
         float num2 = scanner.nextFloat();
 
         System.out.println("###CALCULADORA BASICA###");
