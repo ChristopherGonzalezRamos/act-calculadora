@@ -3,7 +3,7 @@
 > # Nombres de los Integrantes
 > #### Christopher González Ramos
 > #### Fidel Nava Ruiz
-> #### Daniel Alexander
+> #### Daniel Alexander Hernandez Venegas
 > #### Josue Sebastián 
 
 ```md
