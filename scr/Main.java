@@ -11,7 +11,9 @@ public class Main{
         System.out.print("Ingrese el segundo número: ");
         float num2 = scanner.nextFloat();
 
-        System.out.print("Seleccione la operación: \n1- sumar \n2- restar \n3- multiplicar \n4- dividir \n\nEscribe el numero de la operación a realizar:  ");
+        System.out.println("###CALCULADORA BASICA###");
+        System.out.println("Seleccione la operación: \n1- sumar \n2- restar \n3- multiplicar \n4- dividir");
+        System.out.print("Escribe el numero de la operación a realizar: ");
         int operacion = scanner.nextInt();
 
         float resultado = 0;
